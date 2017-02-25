@@ -2,6 +2,8 @@
 
 A Webpack loader that prefixes classes with custom prefix in React components
 
+> **This loader is an improvement over ** [vezetvsem/react-classname-prefix-loader](https://github.com/vezetvsem/react-classname-prefix-loader)
+
 #### install
 
 ###### via npm
@@ -36,6 +38,33 @@ module: {
 
 ```
 
+#### Example
+
+```jsx
+class MyComponent extends React.Component {
+  render () {
+    return(
+      <div className="block">
+        <div className="block inner">
+          <h1 className="block inner title___">Title</h1>
+        </div>
+      </div>
+      );
+  }
+}
+
+```
+
+#### output will be
+
+```html
+<div className="prefixname---block">
+  <div className="prefixname---block prefixname---inner">
+    <h1 className="prefixname---block prefixname---inner prefixname---title___">Title</h1>
+  </div>
+</div>
+```
+
 #### ignore : Object
 
 ignoring classNames and elements
@@ -65,3 +94,7 @@ module: {
 ...
 
 ```
+
+
+#### Recommendation
+ [postcss-class-prefix](https://github.com/thompsongl/postcss-class-prefix) for css files
