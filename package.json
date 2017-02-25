@@ -4,6 +4,7 @@
   "main": "index.js",
   "repository": "https://github.com/vaheqelyan/react-classnamePrefix-loader.git",
   "author": "vaheqelyan <vahe.araqelyan.2013@hotmail.com>",
+  "keywords":["react","classname","prefix","webpack","loader"],
   "license": "MIT",
   "dependencies": {
     "loader-utils": "^1.0.2",
