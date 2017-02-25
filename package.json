@@ -1,11 +1,11 @@
 {
-  "name": "react-classnamePrefix-loader",
+  "name": "react-cnpl",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/vaheqelyan/react-classnamePrefix-loader.git",
   "author": "vaheqelyan <vahe.araqelyan.2013@hotmail.com>",
-  "keywords":["react","classname","prefix","webpack","loader"],
   "license": "MIT",
+  "keywords":["react","classname","prefix","loader","webpack"],
   "dependencies": {
     "loader-utils": "^1.0.2",
     "recast": "^0.11.22"
