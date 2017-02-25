@@ -3,4 +3,4 @@ js/*
 .dut/*
 webpack.config.js
 .babelrc
-.npm-debug.log
+*.log
