@@ -1,6 +1,6 @@
 # react-classnamePrefix-loader
 
-Add a prefix to the  ```classNname```
+A Webpack loader that prefixes classes with custom prefix in React components
 
 #### install
 
